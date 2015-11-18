@@ -2,14 +2,14 @@
 
 A contacts showcase app for a workshop about Kotlin for Android that was aired online. This is the link to the video (in Spanish):
 
- [Kotlin for Android workshop](https://www.youtube.com/watch?v=04CXn85jg8M)
+[Kotlin for Android workshop](https://www.youtube.com/watch?v=04CXn85jg8M)
 
 ## How to use
-
 In Android Studio:
- 1 - Install Kotlin plugin
- 2 - Install Kotlin Android Extensions plugin
- 3 - Enjoy
+
+1. Install Kotlin plugin
+2. Install Kotlin Android Extensions plugin
+3. Enjoy
 
 ## License
 
