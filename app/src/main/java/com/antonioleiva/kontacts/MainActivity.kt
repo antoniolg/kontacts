@@ -3,7 +3,7 @@ package com.antonioleiva.kontacts
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.GridLayoutManager
-import kotlinx.android.synthetic.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.async
 import org.jetbrains.anko.ctx
 import org.jetbrains.anko.startActivity
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         recycler.layoutManager = GridLayoutManager(ctx, 2)
 
-        async {
+        async() {
             val contacts = RetrieveContacts().execute(ctx)
             uiThread {
                 recycler.adapter = ContactsAdapter(contacts) { navigateToDetail(it) }

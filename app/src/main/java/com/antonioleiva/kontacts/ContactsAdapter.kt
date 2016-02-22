@@ -3,7 +3,7 @@ package com.antonioleiva.kontacts
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.view_item.view.*
+import kotlinx.android.synthetic.main.view_item.view.*
 
 class ContactsAdapter(val contacts: List<Contact>, val listener: (Contact) -> Unit) :
         RecyclerView.Adapter<ContactsAdapter.ViewHolder>() {
